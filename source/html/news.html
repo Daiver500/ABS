@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-  <meta charset="utf-8">
-  <title>Сайт о ювелирных изделиях</title>
-  <meta name="description" content="Ювелирные изделия">
-  <meta name="keywords" content="кольца, ожерелья, серьги">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preload" href="css/style.min.css" as="style">
-  <link rel="preload" href="fonts/poppins-regular.woff" as="font">
-  <link rel="preload" href="fonts/cormorant-garamond-600.woff2" as="font">
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт об асфальтовых заводах</title>
+    <meta name="description" content="Асфальтобетонные заводы">
+    <meta name="keywords" content="асфальтовый завод, асфальтный завод, асфальтобетонный завод, асфальтомесительная установка, бетонный завод, бетоносмесительная установка, бсу, абз">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="css/style.min.css" as="style">
+    <link rel="preload" href="fonts/Rajdhanimedium.woff2" as="font" />
+    <link rel="preload" href="fonts/Rajdhanibold.woff2" as="font" />
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
 
 <body class="page">
     <header class="page-header">
@@ -19,6 +19,7 @@
             <div class="navigation__inner container">
                 <div class="navigation__logo-wrapper">
                   <a class="navigation__logo"></a>
+                </div>
                 <button class="navigation__toggle" type="button" aria-label="меню">
                     <svg class="navigation__open" width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 1H25M0 9H25M0 17H25" stroke="#1D1613" stroke-width="2"/>
@@ -30,9 +31,9 @@
                     <span class="visually-hidden">Закрыть меню</span>
                 </button>
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link navigation__link--active">Главная</a></li>
+                    <li class="navigation__item"><a class="navigation__link">Главная</a></li>
                     <li class="navigation__item"><a class="navigation__link" target="_blank" href="products.html">Продукция</a></li>
-                    <li class="navigation__item"><a class="navigation__link" target="_blank" href="news.html">Новости</a></li>
+                    <li class="navigation__item"><a class="navigation__link navigation__link--active" target="_blank">Новости</a></li>
                     <li class="navigation__item"><a class="navigation__link" target="_blank" href="about.html">О компании</a></li>
                     <li class="navigation__item"><a class="navigation__link" target="_blank" href="contacts.html">Контакты</a></li>
                 </ul>
@@ -40,227 +41,23 @@
         </nav>
     </header>
 <main>
-  <section class="products">
-    <div class="products__inner container">
+ <section class="news">
+   <div class="news__inner">
 
-      <div class="products__description">
+     <ul class="news__list">
+       <li class="news__item">
         <picture>
           <source type="image/webp" srcset="../source/img/asphalt-plant.webp, ../source/img/asphalt-plant@2x.webp 2x ">
           <img src="../source/img/asphalt-plant.jpg" srcset="../source/img/asphalt-plant@2x.jpg 2x" alt="асфальтовый завод" width="850" height="650">
         </picture>
-        <div class="products__link-wrapper">
-           <a class="products__link" target="_blank" href="catalog-abz.html">В каталог</a>
+        <div class="news__text-wrapper">
+           <p class="news__text">В разработке</p>
         </div>
-      </div>
+       </li>
+     </ul>
 
-      <div class="products__description">
-        <picture>
-          <source type="image/webp" srcset="../source/img/bsu.webp, ../source/img/bsu@2x.webp 2x ">
-          <img src="../source/img/bsu.jpg" srcset="../source/img/bsu@2x.jpg 2x" alt="бетонный завод" width="850" height="650">
-        </picture>
-        <div class="products__link-wrapper">
-          <a class="products__link" target="_blank" href="catalog-bz.html">В каталог</a>
-       </div>
-      </div>
-
-      <div class="products__header">
-        <h3 class="products__title">Выберите оборудование</h3>
-        <ul class="products__list">
-          <li class="products__item products__item--active">Асфальтовые заводы</li>
-          <li class="products__item">Бетонные заводы</li>
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="about">
-    <div class="about__inner container">
-
-       <div class="about__item">
-          <img class="about__image" src="../source/img/icon_1.png" alt="бетонный завод" width="66" height="64">
-          <div class="about__info">
-            <p class="about__title">233 единицы</p>
-            <p class="about__text">продукции поставили</p>
-          </div>
-       </div>
-
-       <div class="about__item">
-        <img class="about__image" src="../source/img/icon_2.png" alt="бетонный завод" width="66" height="53">
-        <div class="about__info">
-          <p class="about__title">c 2004 года</p>
-          <p class="about__text">на рынке</p>
-        </div>
-     </div>
-
-     <div class="about__item">
-      <img class="about__image" src="../source/img/icon_3.png" alt="бетонный завод" width="55" height="68">
-      <div class="about__info">
-        <p class="about__title">от 15 дней</p>
-        <p class="about__text">срок поставки</p>
-      </div>
    </div>
-
-   <div class="about__item">
-    <img class="about__image" src="../source/img/icon_4.png" alt="бетонный завод" width="66" height="54">
-    <div class="about__info">
-      <p class="about__title">запчасти в России</p>
-      <p class="about__text">собственный склад</p>
-    </div>
- </div>
-
- <div class="about__item">
-  <img class="about__image" src="../source/img/icon_5.png" alt="бетонный завод" width="71" height="50">
-  <div class="about__info">
-    <p class="about__title">Поставка</p>
-    <p class="about__text">оборудования под ключ</p>
-  </div>
-</div>
-
-<div class="about__item">
-  <img class="about__image" src="../source/img/icon_6.png" alt="бетонный завод" width="55" height="66">
-  <div class="about__info">
-    <p class="about__title">до 2 лет</p>
-    <p class="about__text">расширенная гарантия</p>
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  <section class="slider">
-    <div class="slider__inner container">
-
-      <div class="slider__wrapper">
-        <div class="slider__description">
-          <picture class="slider__picture">
-            <source type="image/webp" srcset="../source/img/slider-first.webp, ../source/img/slider-first@2x.webp 2x ">
-            <img class="slider__image" src="../source/img/slider-first.jpg" srcset="../source/img/slider-first@2x.jpg 2x"
-              width="600" height="768" alt="асфальтовый завод">
-          </picture>
-          <div class="slider__information-header">
-            <p class="slider__title">ABW1000</p>
-            <p class="slider__text">Асфальтобетонный завод</p>
-          </div>
-        </div>
-        <div class="slider__description">
-          <picture class="slider__picture">
-            <source type="image/webp" srcset="../source/img/slider-second.webp, ../source/img/slider-second@2x.webp 2x ">
-            <img class="slider__image" src="../source/img/slider-second.jpg" srcset="../source/img/slider-second@2x.jpg 2x"
-              width="600" height="768" alt="бетонный завод">
-          </picture>
-          <div class="slider__information-header">
-            <p class="slider__title">БСУ60</p>
-            <p class="slider__text">Бетонный завод</p>
-          </div>
-        </div>
-        <div class="slider__description">
-          <picture class="slider__picture">
-            <source type="image/webp" srcset="../source/img/slider-third.webp, ../source/img/slider-third2x.webp 2x ">
-            <img class="slider__image" src="../source/img/slider-third.jpg" srcset="../source/img/slider-third@2x.jpg 2x"
-              width="600" height="768" alt="асфальтовый завод">
-          </picture>
-          <div class="slider__information-header">
-            <p class="slider__title">ABW1500</p>
-            <p class="slider__text">Асфальтовый завод</p>
-          </div>
-        </div>
-        <div class="slider__description">
-          <picture class="slider__picture">
-            <source type="image/webp" srcset="../source/img/slider-fourth.webp, ../source/img/slider-fourth@2x.webp 2x ">
-            <img class="slider__image" src="../source/img/slider-fourth.jpg" srcset="../source/img/slider-fourth@2x.jpg 2x"
-              width="600" height="768" alt="бетонный завод">
-          </picture>
-          <div class="slider__information-header">
-            <p class="slider__title">БСУ120</p>
-            <p class="slider__text">Бетоносмесительная установка</p>
-          </div>
-        </div>
-        </div>
-
-        <div class="slider__information-wrapper">
-          <div class="slider__buttons-wrapper">
-            <div class="slider__buttons">
-              <button class="slider__button slider__button-left" aria-label="left button">
-                <svg class="slider__svg-left" width="32" height="32" viewBox="0 0 32 32" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M13.0426 15.999L19.0909 9.95758C19.1973 9.8511 19.2817 9.72468 19.3393 9.58556C19.3969 9.44643 19.4266 9.29731 19.4266 9.14672C19.4266 8.99613 19.3969 8.84702 19.3393 8.70789C19.2817 8.56876 19.1973 8.44235 19.0909 8.33587C18.9845 8.22938 18.8582 8.14492 18.7192 8.08729C18.5802 8.02966 18.4312 8 18.2807 8C18.1302 8 17.9812 8.02966 17.8422 8.08729C17.7032 8.14492 17.5768 8.22938 17.4704 8.33587L10.6232 15.1882C10.5162 15.2943 10.4313 15.4206 10.3734 15.5598C10.3155 15.699 10.2856 15.8483 10.2856 15.999C10.2856 16.1498 10.3155 16.2991 10.3734 16.4382C10.4313 16.5774 10.5162 16.7037 10.6232 16.8099L17.4704 23.6622C17.5765 23.7692 17.7027 23.8542 17.8418 23.9122C17.9809 23.9701 18.13 24 18.2807 24C18.4313 24 18.5805 23.9701 18.7196 23.9122C18.8586 23.8542 18.9848 23.7692 19.0909 23.6622C19.1979 23.556 19.2828 23.4297 19.3407 23.2905C19.3987 23.1514 19.4285 23.0021 19.4285 22.8513C19.4285 22.7006 19.3987 22.5513 19.3407 22.4121C19.2828 22.273 19.1979 22.1466 19.0909 22.0405L13.0426 15.999Z"
-                    fill="currentColor" />
-                </svg>
-              </button>
-              <button class="slider__button slider__button-right" aria-label="right button">
-                <svg class="slider__svg-right" width="32" height="32" viewBox="0 0 32 32" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M18.9574 15.999L12.9091 9.95758C12.8027 9.8511 12.7183 9.72468 12.6607 9.58556C12.6031 9.44643 12.5734 9.29731 12.5734 9.14672C12.5734 8.99613 12.6031 8.84702 12.6607 8.70789C12.7183 8.56876 12.8027 8.44235 12.9091 8.33587C13.0155 8.22938 13.1418 8.14492 13.2808 8.08729C13.4198 8.02966 13.5688 8 13.7193 8C13.8698 8 14.0188 8.02966 14.1578 8.08729C14.2968 8.14492 14.4232 8.22938 14.5296 8.33587L21.3768 15.1882C21.4838 15.2943 21.5687 15.4206 21.6266 15.5598C21.6845 15.699 21.7144 15.8483 21.7144 15.999C21.7144 16.1498 21.6845 16.2991 21.6266 16.4382C21.5687 16.5774 21.4838 16.7037 21.3768 16.8099L14.5296 23.6622C14.4235 23.7692 14.2973 23.8542 14.1582 23.9122C14.0191 23.9701 13.87 24 13.7193 24C13.5687 24 13.4195 23.9701 13.2804 23.9122C13.1414 23.8542 13.0152 23.7692 12.9091 23.6622C12.8021 23.556 12.7172 23.4297 12.6593 23.2905C12.6013 23.1514 12.5715 23.0021 12.5715 22.8513C12.5715 22.7006 12.6013 22.5513 12.6593 22.4121C12.7172 22.273 12.8021 22.1466 12.9091 22.0405L18.9574 15.999Z"
-                    fill="currentColor" />
-                </svg>
-              </button>
-            </div>
-            <div class="slider__pages pages">
-              <p class="pages__text" id="current">01</p>
-              <p class="pages__text">-</p>
-              <p class="pages__text" id="total">04</p>
-            </div>
-          </div>
-        </div>
-
-    </div>
-  </section>
-
-  <section class="information">
-    <div class="information__inner container">
-      <ul class="information__list list">
-        <li class="list__item">
-          <h3 class="list__title">Гарантия</h3>
-          <p class="list__text">Гарантийный срок для Покупателя составляет 12 (двенадцать) месяцев с момента ввода завода в эксплуатацию и передачи Покупателю, но не более 18 месяцев с момента отправки бетонного завода к месту назначения. Быстроизнашивающиеся детали, перечень которых приведён в эксплуатационной документации, исключены из гарантии. Гарантия не распространяется на детали, подверженные нормальному износу (быстроизнашивающиеся части смесителя, расходные материалы, фильтры, масла и технические жидкости, ремни, резинотехнические изделия и т.п.).</p>
-          <button class="list__button" aria-label="open close button">
-
-          </button>
-        </li>
-        <li class="list__item">
-          <h3 class="list__title">Сервис</h3>
-          <p class="list__text">Сервис — приоритетное направление деятельности компании.
-            Где бы Вы ни находились, в любое время года прошедшие обучение на заводе-изготовителе и имеющие сертификат соответствия на право проведения сервисных работ специалисты компании обеспечат незамедлительное и качественное устранение возможных неполадок. Порукой тому, что приобретенная у «АБ Сервис» техника будет всегда в рабочем состоянии – наличие собственного склада запасных частей и отлаженные связи с компаниями-производителями.
-            При необходимости специалисты «АБ Сервис» поставят необходимые расходные материалы, проведут обучение работников эксплуатирующей организации, окажут консультации, предоставят весь пакет технической документации.</p>
-          <button class="list__button" aria-label="open close button">
-
-          </button>
-        </li>
-
-        <li class="list__item">
-          <h3 class="list__title">Доставка</h3>
-          <p class="list__text">Доставка осуществляется "от двери до двери"</p>
-          <button class="list__button" aria-label="open close button">
-
-          </button>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="video">
-    <div class="video__inner container">
-        <div class="video__text-wrapper">
-          <p class="video__text">
-           Компания «АБ Сервис» представляет <a class="video__link" target="_blank" href="catalog-abz.html">асфальтобетонные заводы</a>, <a class="video__link" target="_blank" href="catalog-bsu.html">бетонные заводы</a>. Хорошо известная во всем мире продукция, предназначена для самого широкого круга пользователей – строителей, дорожников, коммунальщиков, горняков. Ее отличают надежность, высокая производительность, неприхотливость, и все это за разумную доступную цену.
-           «АБ Сервис» – это не только широкий ассортимент продукции, но и современные методы работы, когда во главу угла ставится не желание получить сиюминутную выгоду, а стремление установить долгосрочные партнерские взаимоотношения с клиентом, в основе которых лежит качественный и эффективный сервис.
-           «АБ Сервис» – это честный профессиональный подход к каждому клиенту. Мы заинтересованы в Вашем процветании и готовы работать на него вместе с Вами.
-          </p>
-        </div>
-        <video class="video__body" width="430" height="315" poster="../source/img/video.png" controls="controls" tabindex="0">
-          <!--<source src="../source/video/videoplayback.mp4" type="video/mp4">-->
-
-          <iframe width="430" height="315" src="https://www.youtube.com/embed/hlAZJpM0-mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-          Тег video не поддерживается вашим браузером.
-          <a class="video__link" target="_blank" href="../source/video/video.mp4">Скачайте видео</a>
-        </video>
-
-    </div>
-  </section>
-
+ </section>
 </main>
 <footer class="footer">
   <section class="footer__inner container">
@@ -268,8 +65,8 @@
           <p class="footer__title">Наша продукция</p>
           <div class="footer__destinations-inner">
               <ul class="footer__list">
-                  <li class="footer__item"><a class="footer__link" href="blank.html">АБЗ</a></li>
-                  <li class="footer__item"><a class="footer__link" href="blank.html">БСУ</a></li>
+                  <li class="footer__item"><a class="footer__link" href="catalog-abz.html">АБЗ</a></li>
+                  <li class="footer__item"><a class="footer__link" href="catalog-bsu.html">БСУ</a></li>
               </ul>
           </div>
       </div>
