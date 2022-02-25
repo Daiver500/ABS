@@ -34,10 +34,6 @@ module: {
       },
   ],
 },
-  plugins: [
-    new miniCss({
-      filename: "style.css",
-    }),
-   ],
+
   devtool: false,
 };
