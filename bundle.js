@@ -1,1 +1,281 @@
-!function(){"use strict";var e,t,n,o,r,i,a,s,c,u,l,p,d,f,m={610:function(e,t,n){var o=n(81),r=n.n(o),i=n(645),a=n.n(i)()(r());a.push([e.id,'.container{max-width:1360px;margin:0 auto;padding:0 10px}@media (max-width: 1023px){.container{max-width:1023px}}@media (max-width: 719px){.container{max-width:719px}}.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;clip:rect(0 0 0 0);overflow:hidden}a{text-decoration:none}*,*::before,*::after{box-sizing:border-box}img{width:100%;height:auto}.hidden{display:none}body{font-family:"Rajdhani", "Arial", sans-serif;font-size:16px;line-height:24px;font-weight:500;display:flex;flex-direction:column;min-height:100vh;background-color:yellow}.include{display:none}.main{display:grid;grid-template-columns:1fr 1fr;max-width:1360px;margin:0 auto}@media (max-width: 1023px){.main{display:flex;flex-direction:column;align-items:center}}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-color-adjust:100%}body{margin:0}main{display:block}h1{font-color:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-color:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-color:1em}small{font-color:80%}sub,sup{font-color:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-color:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:destinations-item}template{display:none}[hidden]{display:none}\n',""]),t.Z=a},645:function(e){e.exports=function(e){var t=[];return t.toString=function(){return this.map((function(t){var n="",o=void 0!==t[5];return t[4]&&(n+="@supports (".concat(t[4],") {")),t[2]&&(n+="@media ".concat(t[2]," {")),o&&(n+="@layer".concat(t[5].length>0?" ".concat(t[5]):""," {")),n+=e(t),o&&(n+="}"),t[2]&&(n+="}"),t[4]&&(n+="}"),n})).join("")},t.i=function(e,n,o,r,i){"string"==typeof e&&(e=[[null,e,void 0]]);var a={};if(o)for(var s=0;s<this.length;s++){var c=this[s][0];null!=c&&(a[c]=!0)}for(var u=0;u<e.length;u++){var l=[].concat(e[u]);o&&a[l[0]]||(void 0!==i&&(void 0===l[5]||(l[1]="@layer".concat(l[5].length>0?" ".concat(l[5]):""," {").concat(l[1],"}")),l[5]=i),n&&(l[2]?(l[1]="@media ".concat(l[2]," {").concat(l[1],"}"),l[2]=n):l[2]=n),r&&(l[4]?(l[1]="@supports (".concat(l[4],") {").concat(l[1],"}"),l[4]=r):l[4]="".concat(r)),t.push(l))}},t}},81:function(e){e.exports=function(e){return e[1]}},379:function(e){var t=[];function n(e){for(var n=-1,o=0;o<t.length;o++)if(t[o].identifier===e){n=o;break}return n}function o(e,o){for(var i={},a=[],s=0;s<e.length;s++){var c=e[s],u=o.base?c[0]+o.base:c[0],l=i[u]||0,p="".concat(u," ").concat(l);i[u]=l+1;var d=n(p),f={css:c[1],media:c[2],sourceMap:c[3],supports:c[4],layer:c[5]};if(-1!==d)t[d].references++,t[d].updater(f);else{var m=r(f,o);o.byIndex=s,t.splice(s,0,{identifier:p,updater:m,references:1})}a.push(p)}return a}function r(e,t){var n=t.domAPI(t);return n.update(e),function(t){if(t){if(t.css===e.css&&t.media===e.media&&t.sourceMap===e.sourceMap&&t.supports===e.supports&&t.layer===e.layer)return;n.update(e=t)}else n.remove()}}e.exports=function(e,r){var i=o(e=e||[],r=r||{});return function(e){e=e||[];for(var a=0;a<i.length;a++){var s=n(i[a]);t[s].references--}for(var c=o(e,r),u=0;u<i.length;u++){var l=n(i[u]);0===t[l].references&&(t[l].updater(),t.splice(l,1))}i=c}}},569:function(e){var t={};e.exports=function(e,n){var o=function(e){if(void 0===t[e]){var n=document.querySelector(e);if(window.HTMLIFrameElement&&n instanceof window.HTMLIFrameElement)try{n=n.contentDocument.head}catch(e){n=null}t[e]=n}return t[e]}(e);if(!o)throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");o.appendChild(n)}},216:function(e){e.exports=function(e){var t=document.createElement("style");return e.setAttributes(t,e.attributes),e.insert(t,e.options),t}},565:function(e,t,n){e.exports=function(e){var t=n.nc;t&&e.setAttribute("nonce",t)}},795:function(e){e.exports=function(e){var t=e.insertStyleElement(e);return{update:function(n){!function(e,t,n){var o="";n.supports&&(o+="@supports (".concat(n.supports,") {")),n.media&&(o+="@media ".concat(n.media," {"));var r=void 0!==n.layer;r&&(o+="@layer".concat(n.layer.length>0?" ".concat(n.layer):""," {")),o+=n.css,r&&(o+="}"),n.media&&(o+="}"),n.supports&&(o+="}");var i=n.sourceMap;i&&"undefined"!=typeof btoa&&(o+="\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(i))))," */")),t.styleTagTransform(o,e,t.options)}(t,e,n)},remove:function(){!function(e){if(null===e.parentNode)return!1;e.parentNode.removeChild(e)}(t)}}}},589:function(e){e.exports=function(e,t){if(t.styleSheet)t.styleSheet.cssText=e;else{for(;t.firstChild;)t.removeChild(t.firstChild);t.appendChild(document.createTextNode(e))}}}},b={};function h(e){var t=b[e];if(void 0!==t)return t.exports;var n=b[e]={id:e,exports:{}};return m[e](n,n.exports,h),n.exports}h.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return h.d(t,{a:t}),t},h.d=function(e,t){for(var n in t)h.o(t,n)&&!h.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},h.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},e=h(379),t=h.n(e),n=h(795),o=h.n(n),r=h(569),i=h.n(r),a=h(565),s=h.n(a),c=h(216),u=h.n(c),l=h(589),p=h.n(l),d=h(610),(f={}).styleTagTransform=p(),f.setAttributes=s(),f.insert=i().bind(null,"head"),f.domAPI=o(),f.insertStyleElement=u(),t()(d.Z,f),d.Z&&d.Z.locals&&d.Z.locals}();
+/******/ (function() { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ([
+/* 0 */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _js_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _js_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
+/* harmony import */ var _js_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_js_menu__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _js_modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var _js_modal__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_modal__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _js_offers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+/* harmony import */ var _js_offers__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_js_offers__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _js_app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(0);
+/* harmony import */ var _about_html__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(19);
+
+
+
+
+
+
+
+
+/***/ }),
+/* 1 */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+
+
+
+
+
+/***/ }),
+/* 2 */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+/* 3 */
+/***/ (function() {
+
+
+
+
+/***/ }),
+/* 4 */
+/***/ (function() {
+
+
+
+
+/***/ }),
+/* 5 */
+/***/ (function() {
+
+
+
+
+
+/***/ }),
+/* 6 */,
+/* 7 */
+/***/ (function(module) {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = String(url.__esModule ? url.default : url);
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  }
+
+  if (options.maybeNeedQuotes && /[\t\n\f\r "'=<>`]/.test(url)) {
+    return "\"".concat(url, "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+/* 8 */
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b88d04fba731603756b1.css";
+
+/***/ }),
+/* 9 */
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f8446b69784fe8308930.woff2";
+
+/***/ }),
+/* 10 */
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "1320aca224502421160f.woff2";
+
+/***/ }),
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
+/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(8), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(9), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(10), __webpack_require__.b);
+// Module
+var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
+var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
+var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);
+var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n  <head>\r\n    <meta charset=\"utf-8\">\r\n    <title>Сайт об асфальтовых заводах</title>\r\n    <meta name=\"description\" content=\"Асфальтобетонные заводы\">\r\n    <meta name=\"keywords\" content=\"асфальтовый завод, асфальтный завод, асфальтобетонный завод, асфальтомесительная установка, бетонный завод, бетоносмесительная установка, бсу, абз\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <link rel=\"preload\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" as=\"style\">\r\n    <link rel=\"preload\" href=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" as=\"font\" />\r\n    <link rel=\"preload\" href=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" as=\"font\" />\r\n    <link rel=\"stylesheet\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\">\r\n  </head>\r\n\r\n<body class=\"page\">\r\n    <header class=\"page-header\">\r\n        <nav class=\"navigation\">\r\n            <div class=\"navigation__inner container\">\r\n                <div class=\"navigation__logo-wrapper\">\r\n                  <a class=\"navigation__logo\"></a>\r\n                </div>\r\n                <button class=\"navigation__toggle\" type=\"button\" aria-label=\"меню\">\r\n                    <svg class=\"navigation__open\" width=\"25\" height=\"18\" viewBox=\"0 0 25 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                      <path d=\"M0 1H25M0 9H25M0 17H25\" stroke=\"#1D1613\" stroke-width=\"2\"/>\r\n                    </svg>\r\n                    <span class=\"visually-hidden\">Открыть меню</span>\r\n                    <svg class=\"navigation__close\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                      <path d=\"M1 23L23 1M23 23L1 1\" stroke=\"#141517\" stroke-opacity=\"0.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n                      </svg>\r\n                    <span class=\"visually-hidden\">Закрыть меню</span>\r\n                </button>\r\n                <ul class=\"navigation__list\">\r\n                    <li class=\"navigation__item\"><a class=\"navigation__link\">Главная</a></li>\r\n                    <li class=\"navigation__item\"><a class=\"navigation__link\" target=\"_blank\" href=\"products.html\">Продукция</a></li>\r\n                    <li class=\"navigation__item\"><a class=\"navigation__link\" target=\"_blank\" href=\"news.html\">Новости</a></li>\r\n                    <li class=\"navigation__item\"><a class=\"navigation__link navigation__link--active\" target=\"_blank\">О компании</a></li>\r\n                    <li class=\"navigation__item\"><a class=\"navigation__link\" target=\"_blank\" href=\"contacts.html\">Контакты</a></li>\r\n                </ul>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n<main>\r\n  <section class=\"about\">\r\n    <div class=\"about__inner\">\r\n       <h1 class=\"about__header\">Компания «АБ Сервис» – профессиональный подход к каждому клиенту</h1>\r\n       <div class=\"about__info\">\r\n         <p class=\"about__text\">Компания «АБ Сервис» открылась в 2004 году и успешно осуществляет свою деятельность на территории РФ. «АБ Сервис» - генеральный представитель нескольких китайских компаний в России.</p>\r\n         <div class=\"about__text-wrapper\">\r\n           <p class=\"about__text\">Основным направлением деятельности является поставка <a class=\"about__link\" href=\"catalog-abz.html\" target=\"_blank\">асфальтобетонных заводов</a>, <a class=\"about__link\" href=\"catalog-bsu.html\" target=\"_blank\">бетонных заводов</a></p>\r\n         </div>\r\n         <p class=\"about__text\">Специалисты «АБ Сервис» помогут в подборе оборудования, организации его доставки, оформлении документов (включая таможенные), проведут предпродажную подготовку, обеспечат нужной документацией. Располагая собственной ремонтно-технической базой и складом запасных частей, компания гарантирует всем своим клиентам качественный сервис находящейся в эксплуатации техники.</p>\r\n       </div>\r\n\r\n       <div class=\"about__advantages\">\r\n         <ol class=\"about__list\">\r\n           <li class=\"about__item\">\r\n              <p class=\"about__text\">Оптимальное соотношение цены и качества</p>\r\n              <p class=\"about__text\">собран опыт мировых лидеров в области создания передовых образцов техники</p>\r\n              <p class=\"about__text\">все ответственные компоненты - от ведущих мировых производителей</p>\r\n              <p class=\"about__text\"> в 2 - 3 раза дешевле европейских, японских американских аналогов</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Быстрые сроки поставки - от 30 дней.</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\"> Комплексный подход (инжиниринг, поставка оборудования,\r\n              сервис, обслуживание, технологическое сопровождение, документация на русском\r\n              языке)\r\n\r\n      </p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Склад запасных частей в России с региональными отделениями</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Возможность поставки как дорогих так и дешевых комплектаций</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Использование импортных  и лицензионных  узлов и\r\n              деталей (Европа,США,Япония) в оборудовании</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Вся продукция - настоящий промышленный  «Китай»,\r\n              предназначенный для  экспорта</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Вся продукция сертифицирована для Российского рынка\r\n              (Российский сертификат качества, ISO9001, Certificate of Conformity, CE и т.д.)</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Собственные патенты на различные части асфальтовых заводов и бетонных заводов\r\n\r\n              (грохот и т.д.)</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Реально действующая техника и оборудование в России с 2004 года (асфальтные\r\n              заводы, бетонные заводы, фронтальные погрузчики, грейдеры, бульдозеры,\r\n              асфальтовые катки, грунтовые катки, экскаваторы). Опыт эксплуатации в российских\r\n              условиях.</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Поставка \"под ключ\". В стоимость поставки входит доставка до рабочей площадки,\r\n              таможенная очистка, ндс 18%, предотгрузочная инспекция, предпродажная\r\n              подготовка, шеф-монтаж. пуско-наладочные работы, обучение.</p>\r\n           </li>\r\n           <li class=\"about__item\">\r\n            <p class=\"about__text\">Полностью легальная таможенная очистка. Вы получите все документы,\r\n              подтверждающие это.</p>\r\n           </li>\r\n         </ol>\r\n       </div>\r\n    </div>\r\n  </section>\r\n</main>\r\n<footer class=\"footer\">\r\n  <section class=\"footer__inner container\">\r\n      <div class=\"footer__destinations\">\r\n          <p class=\"footer__title\">Наша продукция</p>\r\n          <div class=\"footer__destinations-inner\">\r\n              <ul class=\"footer__list\">\r\n                <li class=\"footer__item\"><a class=\"footer__link\" href=\"catalog-abz.html\">АБЗ</a></li>\r\n                <li class=\"footer__item\"><a class=\"footer__link\" href=\"catalog-bsu.html\">БСУ</a></li>\r\n              </ul>\r\n          </div>\r\n      </div>\r\n      <div class=\"footer__contacts\">\r\n          <p class=\"contacts__title\">Наши контакты</p>\r\n          <a class=\"contacts__link contacts__link-mail\" href=\"mailto:abs@ab-s.ru\">abs@ab-s.ru</a>\r\n          <a class=\"contacts__link contacts__link-tel\" href=\"tel:+79218624237\">+7 (921)-862-42-37</a>\r\n      </div>\r\n      <div class=\"footer__description\">\r\n          <p class=\"description__title\">____</p>\r\n          <p class=\"description__text\">\r\n              --------\r\n          </p>\r\n      </div>\r\n  </section>\r\n</footer>\r\n</body>\r\n</html>\r\n";
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (code);
+
+/***/ })
+/******/ 	]);
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	!function() {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = function(module) {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				function() { return module['default']; } :
+/******/ 				function() { return module; };
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	!function() {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = function(exports, definition) {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	!function() {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	!function() {
+/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	!function() {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = function(exports) {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	!function() {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	!function() {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			0: 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	}();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__(0);
+/******/ 	
+/******/ })()
+;

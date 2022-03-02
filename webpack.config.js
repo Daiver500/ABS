@@ -1,39 +1,36 @@
-const path = require("path");
-const miniCss = require("mini-css-extract-plugin");
+const path = require('path');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  mode: "production",
-  watch: true,
-  entry: [
-    "./source/js/index.js",
-    "./source/js/modal.js",
-    "./source/js/menu.js",
-    "./source/js/offers.js",
-  ],
+  entry: ["./source/js/app.js"],
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname),
     iife: true
   },
+  mode: 'none',
   module: {
     rules: [
-        // JavaScript
-        {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: ['babel-loader'],
-        },
-    ],
-},
-module: {
-  rules: [
-      // CSS, PostCSS, Sass
       {
-          test: /\.(scss|css)$/,
-          use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+        test: /\.(scss|css)$/,
+        use: [ MiniCssExtractPlugin.loader,'css-loader', {loader: "sass-loader",},],
       },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+    ],
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'style.min.css',
+    }),
   ],
-},
-
-  devtool: false,
+  optimization: {
+    minimizer: [
+      new CssMinimizerPlugin(),
+    ],
+    minimize: true,
+  }
 };
