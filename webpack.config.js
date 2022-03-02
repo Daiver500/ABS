@@ -6,7 +6,7 @@ module.exports = {
   entry: ["./source/js/app.js"],
   output: {
     filename: "bundle.js",
-    path: __dirname + '/source/js',
+    path: __dirname,
   },
   mode: 'none',
   watch: true,

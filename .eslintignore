@@ -1,2 +1,4 @@
-webpack.dev.js
-webpack.prod.js
+build/*.js
+source/js/vendor/*.js
+gulpfile.js
+webpack.config.js
