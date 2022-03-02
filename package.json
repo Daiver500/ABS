@@ -20,7 +20,6 @@
     "css-minimizer-webpack-plugin": "^3.4.1",
     "duplicate-package-checker-webpack-plugin": "^3.0.0",
     "eslint": "^8.9.0",
-    "html-webpack-plugin": "^5.5.0",
     "imask": "^6.4.2",
     "mini-css-extract-plugin": "^2.5.3",
     "node-sass": "^7.0.1",
@@ -37,7 +36,7 @@
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "test": "npm run editorconfig & npm run stylelint & eslint source/js/",
     "build": "webpack",
-    "start": "webpack --watch"
+    "start": "webpack"
   },
   "author": "",
   "license": "ISC",
