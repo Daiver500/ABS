@@ -13,7 +13,7 @@ const modal = () => {
 
   const windowClickHandler = (evt) => {
     const target = evt.target;
-    if (target === modal) {
+    if (target === modalWindow) {
       closeModal();
     }
   };
