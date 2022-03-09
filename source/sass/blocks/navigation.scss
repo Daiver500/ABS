@@ -1,3 +1,45 @@
+.navigation {
+  background-color: $black;
+  padding: 20px;
+}
+
 .navigation__toggle {
-    display: none;
+  display: none;
+}
+
+.navigation__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 765px;
+}
+
+.navigation__item:not(:last-child) {
+  padding-right: 20px;
+}
+
+.navigation__link {
+  color: $white;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  opacity: 0.5;
+}
+
+.navigation__link--active {
+  color: $red;
+}
+
+.navigation__link--active:hover,
+.navigation__link--active:focus {
+  opacity: 1;
 }

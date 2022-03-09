@@ -8,6 +8,14 @@ module.exports = {
     filename: "bundle.js",
     path: __dirname,
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'source'),
+    },
+    liveReload: true,
+    open: true,
+    hot: true,
+  },
   mode: 'none',
   watch: true,
   module: {

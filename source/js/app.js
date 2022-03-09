@@ -1,6 +1,7 @@
-import "../js/index";
-import "../js/menu";
-import "../js/modal";
-import "../js/offers";
-import "../js/app";
+import '../js/index';
+import {modal} from './modal';
+
+window.addEventListener('DOMContentLoaded', () => {
+  modal();
+});
 
