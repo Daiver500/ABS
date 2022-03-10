@@ -1,4 +1,106 @@
 .about {
   display: flex;
-  background-color: $white;
+  background-color: $black;
+  //padding-top: 50px;
+  //padding-bottom: 50px;
+  //background-image: url('../img/abz-main.jpg');
+  //background-repeat: no-repeat;
+  // background-size: 100%;
+  position: relative;
+  min-height: 525px;
+  margin-bottom: 50px;
+}
+
+.about-card__picture {
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.about__inner {
+  min-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  padding: 50px 20px;
+}
+
+.about__list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content max-content;
+  grid-gap: 20px;
+  margin: 0;
+  justify-items: center;
+}
+
+.about-card {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-width: 210px;
+  max-height: 140px;
+  cursor: pointer;
+  border: 1px solid $grey;
+  border-radius: 8px;
+  color: $white;
+}
+
+.about-card:hover,
+.about-card:focus {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 1px solid $red;
+  transition: 0.3s ease;
+}
+
+
+.about-card__image {
+  max-width: 100px;
+  max-height: 135px;
+}
+
+.about-card__info {
+  text-align: center;
+}
+
+.about-card__info p,
+.about-card__info span {
+  margin: 0;
+  font-weight: 600;
+}
+
+.about-card--active {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 1px solid $red;
+  transition: 0.3s ease;
+}
+
+@media (max-width: $max-tablet-width) {
+  .about {
+    min-height: 400px;
+    background-size: 113vh;
+  }
+
+  .about__inner {
+    min-width: unset;
+  }
+
+  .about-card__image {
+    max-width: 75px;
+    max-height: 100px;
+  }
+
+  .about-card__info p,
+  .about-card__info span {
+    font-weight: 400;
+  }
 }
