@@ -55,9 +55,10 @@
     <section class="about">
       <picture>
         <!--<source type="image/webp" srcset="../img/icon_1.webp, ../img/icon_1@2x.webp 2x ">-->
-        <img class="about-card__picture" src="../img/abz-main.jpg" srcset="../img/abz-main@2x.jpg 2x" alt="иконка" width="834" height="370">
+        <img class="about__picture" src="../img/abz-main.jpg" srcset="../img/abz-main@2x.jpg 2x" alt="иконка" width="834" height="370">
       </picture>
       <div class="about__inner container">
+      <div class="about__data-wrapper">
        <ul class="about__list">
         <li class="about-card about-card--active">
           <picture>
@@ -125,6 +126,25 @@
           </div>
         </li>
        </ul>
+       <div class="about-info about-info--active">
+         <p>Hello World!!!</p>
+       </div>
+       <div class="about-info">
+        <p>Hello Hello World!!!</p>
+      </div>
+      <div class="about-info">
+        <p>Hello  Hello  Hello World!!!</p>
+      </div>
+      <div class="about-info">
+        <p>Hello  Hello  Hello  HelloWorld!!!</p>
+      </div>
+      <div class="about-info">
+        <p>Hello  Hello  Hello  Hello  Hello World!!!</p>
+      </div>
+      <div class="about-info">
+        <p>Hello  Hello  Hello  Hello  Hello  Hello World!!!</p>
+      </div>
+       </div>
       </div>
     </section>
     <section class="products">
@@ -333,28 +353,30 @@
           </ul>
         </div>
       </div>
-      <div class="footer__contacts">
+      <div class="footer__contacts contacts">
         <p class="contacts__title">Наши контакты</p>
         <a class="contacts__link contacts__link-mail" href="mailto:abs@ab-s.ru">abs@ab-s.ru</a>
         <a class="contacts__link contacts__link-tel" href="tel:+79218624237">+7 (921)-862-42-37</a>
       </div>
-      <div class="footer__description">
+      <div class="footer__description description">
         <p class="description__title">____</p>
         <p class="description__text">
           --------
         </p>
       </div>
-      <form class="bottom__form">
-        <label class="bottom__label"> <span class="visually-hidden">Имя</span>
-          <input class="bottom__name" pattern="^[A-zА-яЁё]+$" type="text" name="text" placeholder="Имя*" required
+      <div class="footer__form">
+      <form >
+        <label class="footer__label"> <span class="visually-hidden">Имя</span>
+          <input pattern="^[A-zА-яЁё]+$" type="text" name="text" placeholder="Имя*" required
             oninvalid="setCustomValidity('Введите имя на кириллице или латинице')" oninput="setCustomValidity('')">
         </label>
-        <label class="bottom__label"> <span class="visually-hidden">Телефон</span>
-          <input class="bottom__phone" type="text" name="telephone" id="phone" placeholder="Номер телефона*" required
+        <label class="footer__label"> <span class="visually-hidden">Телефон</span>
+          <input type="text" name="telephone" id="phone" placeholder="Номер телефона*" required
             oninvalid="setCustomValidity('Введите 10 цифр')" oninput="setCustomValidity('')" />
         </label>
-        <button class="bottom__button" type="submit">Оставить заявку</button>
+        <button class="footer__form-button" type="submit">Оставить заявку</button>
       </form>
+      </div>
     </section>
   </footer>
   <section class="modal hidden">

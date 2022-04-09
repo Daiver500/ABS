@@ -12,7 +12,7 @@ const mainMenu = () => {
       item.classList.toggle('isHidden');
     });
 
-      navigationMenu.classList.toggle('isActive');
+    navigationMenu.classList.toggle('isActive');
 
 
     body[0].classList.toggle('no-scroll');
