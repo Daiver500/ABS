@@ -1,0 +1,15 @@
+.footer__inner {
+  position: relative;
+}
+
+.footer__picture {
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
